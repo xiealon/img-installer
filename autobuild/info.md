@@ -7,6 +7,7 @@
 - 物理机使用：建议将iso放入ventoy的U盘中
 #### 运行ISO的中的debian live系统 大概10几秒后 输入命令 `ddd` 即可调用安装菜单 选择需要安装的硬盘迅速完成安装
 <img width="50%" height="50%" alt="image" src="https://github.com/user-attachments/assets/b47821ed-dc1d-41b5-8a6e-814bf222a2f4" />
+
 #### 安装后 默认情况 若没有更改 则固件信息如README所示
 
 #### 和传统的NAS虚拟机导入img有什么区别
