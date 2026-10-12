@@ -52,5 +52,6 @@ docker run --privileged --rm \
     -v $(pwd)/output:/output \
     -v $(pwd)/supportFiles:/supportFiles:ro \
     -v $(pwd)/imm/custom.img:/mnt/custom.img \
+    -e ISO_VER="${ISO_VER:-x86_64}" \
     debian:buster \
     /supportFiles/custom/build.sh
