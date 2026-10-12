@@ -113,6 +113,7 @@ xorriso \
     "${HOME}/LIVE_BOOT/staging"
 
 echo Copy output
-cp -v $HOME/LIVE_BOOT/debian-custom.iso /output/custom-installer-x86_64.iso
-chmod -v 666 /output/custom-installer-x86_64.iso
+OUT_NAME="custom-installer-x86_64-${ISO_VER:-x86_64}.iso"
+cp -v $HOME/LIVE_BOOT/debian-custom.iso "/output/${OUT_NAME}"
+chmod -v 666 "/output/${OUT_NAME}"
 ls -lah /output
